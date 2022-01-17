@@ -6,10 +6,10 @@ const Sidebar = () => {
     const [mock, setMock] = useContext(Side);
     return (
       <Container>
-        {mock.map((value) => (
+        {mock.map(({id, title, icon}) => (
           <Wrapper>
-            {<img src={value.icon} />}
-            <Title>{value.title}</Title>
+            {<img src={icon} />}
+            <Title>{title}</Title>
           </Wrapper>
         ))}
         <Border />
