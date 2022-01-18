@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from './sidebar';
+// import Sidebar from './sidebar';
 import Navbar from './navbar';
 import Movie from './movieList';
 
@@ -7,9 +7,9 @@ const Context = ({children}) => {
     return (
       <div>
         <Navbar>
-          <Sidebar>
+          {/* <Sidebar> */}
             <Movie>{children}</Movie>
-          </Sidebar>
+          {/* </Sidebar> */}
         </Navbar>
       </div>
     );

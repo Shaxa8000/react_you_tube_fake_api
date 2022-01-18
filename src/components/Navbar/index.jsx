@@ -11,7 +11,7 @@ const Navbar = () => {
 
 
     const getSearch = (e) => {
-        const newData = kino.filter((value) => value.name.toLowerCase().includes(e.target.value.toLowerCase()))
+        const newData = moviel.filter((value) => value.name.toLowerCase().includes(e.target.value.toLowerCase()))
         setKino(newData)
 
 

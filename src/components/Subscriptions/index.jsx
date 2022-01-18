@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, Img, Title } from './style';
 
-const About = () => {
+const Subscriptions = () => {
     return (
       <Container>
         <Img>
-          <Title>Explore Page</Title>
+          <Title>Subscriptions</Title>
         </Img>
       </Container>
     );
 }
 
-export default About
+export default Subscriptions
